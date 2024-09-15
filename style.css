@@ -12,8 +12,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("");
-    background-size: cover;
     background-color: aqua;
 }
 
@@ -28,4 +26,18 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: beige;
+}
+.clock h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+@media screen and (max-width:400px) {
+    .clock{
+        max-width: 260px;
+        padding: 5px;
+    }
+    .clock h1{
+        font-size: 2.4rem;
+    }
+    
 }
